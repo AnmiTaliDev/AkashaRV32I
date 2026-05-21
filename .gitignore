@@ -1,0 +1,60 @@
+# Simulation artifacts
+*.vcd
+*.fst
+*.vvp
+*.out
+a.out
+simv
+simv.daidir/
+csrc/
+akasha_sim
+
+# Icarus Verilog
+*.vpi
+
+# Verilator
+obj_dir/
+*.xml
+
+# ModelSim / Questa
+work/
+vsim.wlf
+transcript
+*.mpf
+*.mti
+
+# Vivado
+vivado*
+*.jou
+*.log
+.Xil/
+
+# Quartus
+db/
+incremental_db/
+output_files/
+*.qws
+*.qpf
+*.qsf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env/
+.venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+*~
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
